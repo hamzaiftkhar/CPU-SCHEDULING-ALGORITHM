@@ -1,0 +1,139 @@
+body{
+    background-color:whitesmoke;
+    color:black;
+    margin: 0px;
+}
+
+
+#radio{
+    display: block;
+    font-size: large;
+    position: absolute;
+    left: 45vw;
+}
+
+
+form{
+    font-size: large;
+}
+
+span{
+    position: absolute;
+    left:180px;
+}
+
+table{
+    font-size: large;  
+}
+
+#table th,#table td{
+    border-bottom: 2px black solid;
+}
+
+
+#mytb{
+    border-spacing: 0;
+}
+
+#mytb th{
+    border: 2px solid black;
+    padding:2px 8px;
+}
+
+#mytb td{
+    border: 2px solid black;
+    padding:2px 8px;
+}
+
+#average{
+    float: right;
+    margin: 0 2px;
+}
+
+#average input{
+    width:50px;
+    border: 1px solid black;
+}
+
+.chart-box{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+}
+body {
+    background-color: #282c34;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    margin: 20px; /* Add margin to the body */
+}
+
+.navbar {
+    background-color: #61dafb;
+    margin-bottom: 20px; /* Add margin to the bottom of the navbar */
+}
+
+.navbar h2 {
+    color: #ffffff;
+}
+
+.container-radio {
+    background-color: #415b62;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin to the bottom of the container */
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #36454f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    background-color: #546e7a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin to the bottom of the table */
+    margin-left: 10px; /* Add margin to the left of the table */
+    margin-right: 10px; /* Add margin to the right of the table */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-primary, .btn-danger, .btn-success {
+    margin-right: 10px; /* Add margin to the right of the buttons */
+}
+
+.avg-text {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #ffffff;
+    margin-left: 10px; /* Add margin to the left of the average text */
+}
+
+#animator {
+    margin-top: -30px;
+    margin-left: 60px; /* Add margin to the left of the animator */
+    margin-bottom: 50px;
+}
+
+#graph-container {
+    background-color: #deedf5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 10px; /* Add margin to the left of the graph container */
+    margin-right: 10px; /* Add margin to the right of the graph container */
+}
+
+canvas {
+    border-radius: 10px;
+}
